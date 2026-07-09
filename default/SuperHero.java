@@ -21,7 +21,7 @@ public class SuperHero extends Hero {
 	@Override
 	public void run() {
 		if(flying) {
-			System.out.println(this.name + "は飛び去って逃げた");
+			System.out.println(getName() + "は飛び去って逃げた");
 		}else {
 			super.run();
 		}

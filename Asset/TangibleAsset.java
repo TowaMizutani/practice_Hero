@@ -6,6 +6,7 @@ public abstract class TangibleAsset {
 	int price;
 	String color;
 	
+	//親コンストラクタ
 	public TangibleAsset(String name,int price,String color) {
 		this.name = name;
 		this.price = price;

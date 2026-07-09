@@ -3,10 +3,12 @@ public class ExeTest1 {
 
 	public static void main(String[] args) {
 		
-		Fool f = new Fool();
+		Wizard w = new Wizard("魔法使い", 100);
 		
-		f.talk();
+		Matango m = new Matango(100 , 'A');
 		
+		w.attack(m);
+		w.fireball(m);
 	}
 }
 
